@@ -1,0 +1,186 @@
+*{
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "syne";
+    background-color: #FDFBF5;
+}
+
+@media (max-width:480px){
+    header{
+        .hide-wala{
+            display: none;
+
+        }
+        .circle-wala{
+            display: none;
+        }
+    }
+
+    .page-1{
+        h1{
+            font-size: 4rem;
+            line-height: 8vh;
+            
+        }
+        img{
+            border-radius: 20px;
+            height: 30vh;
+            object-fit: cover;
+            
+        }
+    }
+
+    .page-2{
+        flex-direction: column;
+        .page-2-left{
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-bottom: 3rem;
+
+            .page-2-h2{
+                font-size: 3rem;
+                line-height: 3rem;
+                margin-bottom: 3rem;
+            }
+
+        }
+
+        .page-2-right{
+            width: 100%;
+            border: none;
+            padding-left: 0;
+            margin-top: 3rem;
+        }
+    }
+
+    .page-3{
+        flex-direction: column;
+        height: 100%;
+
+        .page-3-left{
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid black;
+            padding-bottom: 3rem;
+            padding-left: 0;
+            .page-3-left-inner{
+                h2{
+                    font-size: 3rem;
+                    line-height: 3rem;
+                }
+            }
+        }
+
+        .page-3-right{
+            width: 100%;
+            flex-direction: column;
+            // flex-wrap: nowrap;
+            padding: 0;
+
+            .page-3-righ-inner{
+                margin-top: 3rem;
+                flex-direction: column;
+                width: 100%;
+                gap: 2rem;
+
+                .page-3-right-inner-video{
+                    width: 100%;
+                    height: 30vh;
+                }
+            }
+        }
+    }
+
+    .page-4{
+        flex-direction: column;
+
+        .page-4-left{
+            width: 100%;
+
+            .page-4-left-inner{
+                h2{
+                    font-size: 2.8rem;
+                    line-height: 3rem;
+                    text-transform: uppercase;
+
+                    br{
+                        display: none;
+                    }
+                }
+            }
+
+            .hide-wali-img{
+                display: none;
+            }
+
+        }
+
+        .page-4-right{
+            width: 100%;
+            height: 100%;
+            border-left: none;
+            padding-left: 0;
+            margin-top: 3rem;
+
+
+            .page-4-right-inner{
+                gap: 2rem;
+            }
+
+        }
+    }
+
+    footer{
+        .footer-1{
+            flex-direction: column;
+
+            .footer-1-left{
+                width: 100%;
+                padding-left: 0;
+                border-right: none;
+
+                .footer-1-left-1{
+                    border-bottom: 1px solid black;
+                    padding-bottom: 3rem;
+
+                    .footer-1-inner-circle{
+                        margin-top: 2rem;
+                    }
+                }
+
+
+            }
+
+            .footer-1-right{
+                width: 100%;
+                padding-left: 0;
+                
+
+                .footer-1-right-inner{
+                    flex-direction: column;
+                    margin-top: 3rem;
+                    gap: 3rem;
+
+                    .footer-1-right-border-wala{
+                        padding-bottom: 2rem;
+                        border-bottom: 1px solid black;
+                    }
+                    
+                }
+            }
+
+          
+        }
+
+        .footer-2{
+
+            .footer-wala-hide{
+               display: none;
+            }
+        }
+    }
+}
